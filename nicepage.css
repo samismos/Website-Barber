@@ -15,6 +15,52 @@
   }
 }
  
+a.lang-button-GR {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: transparent;
+  border-radius: 50%;
+  background-image: url(images/gr.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid white;
+  color: transparent;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.01px;
+}
+a.lang-button-GR:hover {
+  color: transparent;
+}
+
+a.lang-button-ENG {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: transparent;
+  border-radius: 50%;
+  background-image: url(images/gb.svg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  border: solid white;
+  color: transparent;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.01px;
+}
+a.lang-button-ENG:hover {
+  color: transparent;
+}
 
 .fr-clearfix::after {
   clear: both;
@@ -372,7 +418,7 @@ span.fr-img-caption.fr-view {
       float: right;
       margin: 5px 0 5px 5px;
       max-width: calc(100% - 5px); }
-/*end-commonstyles library*/@charset "UTF-8";
+/*end-commonstyles library*/
 .u-hidden-block {
   visibility: hidden!important;
 }
@@ -16677,7 +16723,7 @@ div.u-video,
 .u-nav-link,
 .u-nav-link:hover,
 .u-nav-link:focus {
-  text-decoration: none;
+  text-decoration:none;
 }
 .u-nav-item a.u-nav-link,
 .menu-collapse a.u-nav-link {
@@ -20130,30 +20176,7 @@ a.pswp__share--download:hover {
     opacity: 1;
   }
 }
-@keyframes customAnimationIn {
-  from {
-    transform-origin: center center;
-    transform: translate3d(var(--animation-custom_in-translate_x), var(--animation-custom_in-translate_y), 0) scale3d(var(--animation-custom_in-scale), var(--animation-custom_in-scale), var(--animation-custom_in-scale)) rotate3d(0, 0, 1, var(--animation-custom_in-rotate));
-    opacity: var(--animation-custom_in-opacity);
-  }
-  to {
-    transform-origin: center center;
-    transform: translate3d(-50% !important, -50% !important, 0);
-    opacity: 1;
-  }
-}
-@keyframes customAnimationOut {
-  from {
-    transform-origin: center center;
-    transform: translate3d(-50% !important, -50% !important, 0);
-    opacity: 1;
-  }
-  to {
-    transform-origin: center center;
-    transform: translate3d(var(--animation-custom_in-translate_x), var(--animation-custom_in-translate_y), 0) scale3d(var(--animation-custom_in-scale), var(--animation-custom_in-scale), var(--animation-custom_in-scale)) rotate3d(0, 0, 1, var(--animation-custom_in-rotate));
-    opacity: var(--animation-custom_in-opacity);
-  }
-}
+
 .customAnimationIn {
   animation-name: customAnimationIn;
 }
@@ -23574,7 +23597,7 @@ li.active > a.u-button-style.u-button-style.u-active-color-1-light-2[class*="u-b
   background-color: #adcce9 !important;
 }
 a.u-link.u-hover-color-1-light-2:hover {
-  color: #adcce9 !important;
+  color: transparent !important;
 }
 .u-color-1-light-3,
 .u-body.u-color-1-light-3,
@@ -25774,7 +25797,7 @@ li.active > a.u-button-style.u-button-style.u-active-palette-1-light-2[class*="u
   background-color: #adcce9 !important;
 }
 a.u-link.u-hover-palette-1-light-2:hover {
-  color: #adcce9 !important;
+  color: transparent !important;
 }
 .u-palette-1-light-3,
 .u-body.u-palette-1-light-3,
@@ -32647,7 +32670,7 @@ a.u-button-style.u-button-style.active > .u-text-active-color-1-dark-3[class*="u
 .u-text-hover-color-1-dark-3.u-carousel-control:hover,
 .u-popupmenu-items.u-text-hover-color-1-dark-3 .u-nav-link:hover,
 .u-popupmenu-items.u-popupmenu-items.u-text-active-color-1-dark-3 .u-nav-link.active {
-  color: #292e33 !important;
+  color: transparent !important;
 }
 .u-text-color-1-dark-3 .u-svg-link,
 .u-text-hover-color-1-dark-3:hover .u-svg-link,
@@ -32702,7 +32725,7 @@ a.u-button-style.u-button-style.active > .u-text-active-color-1-dark-2[class*="u
 .u-text-hover-color-1-dark-2.u-carousel-control:hover,
 .u-popupmenu-items.u-text-hover-color-1-dark-2 .u-nav-link:hover,
 .u-popupmenu-items.u-popupmenu-items.u-text-active-color-1-dark-2 .u-nav-link.active {
-  color: #425465 !important;
+  color: transparent !important;
 }
 .u-text-color-1-dark-2 .u-svg-link,
 .u-text-hover-color-1-dark-2:hover .u-svg-link,
@@ -32757,7 +32780,7 @@ a.u-button-style.u-button-style.active > .u-text-active-color-1-dark-1[class*="u
 .u-text-hover-color-1-dark-1.u-carousel-control:hover,
 .u-popupmenu-items.u-text-hover-color-1-dark-1 .u-nav-link:hover,
 .u-popupmenu-items.u-popupmenu-items.u-text-active-color-1-dark-1 .u-nav-link.active {
-  color: #4c7397 !important;
+  color:transparent !important;
 }
 .u-text-color-1-dark-1 .u-svg-link,
 .u-text-hover-color-1-dark-1:hover .u-svg-link,
@@ -32812,7 +32835,7 @@ a.u-button-style.u-button-style.active > .u-text-active-color-1[class*="u-border
 .u-text-hover-color-1.u-carousel-control:hover,
 .u-popupmenu-items.u-text-hover-color-1 .u-nav-link:hover,
 .u-popupmenu-items.u-popupmenu-items.u-text-active-color-1 .u-nav-link.active {
-  color: #478ac9 !important;
+  color: transparent !important;
 }
 .u-text-color-1 .u-svg-link,
 .u-text-hover-color-1:hover .u-svg-link,
@@ -32867,7 +32890,7 @@ a.u-button-style.u-button-style.active > .u-text-active-color-1-light-1[class*="
 .u-text-hover-color-1-light-1.u-carousel-control:hover,
 .u-popupmenu-items.u-text-hover-color-1-light-1 .u-nav-link:hover,
 .u-popupmenu-items.u-popupmenu-items.u-text-active-color-1-light-1 .u-nav-link.active {
-  color: #77aad9 !important;
+  color: transparent !important;
 }
 .u-text-color-1-light-1 .u-svg-link,
 .u-text-hover-color-1-light-1:hover .u-svg-link,
@@ -32922,7 +32945,7 @@ a.u-button-style.u-button-style.active > .u-text-active-color-1-light-2[class*="
 .u-text-hover-color-1-light-2.u-carousel-control:hover,
 .u-popupmenu-items.u-text-hover-color-1-light-2 .u-nav-link:hover,
 .u-popupmenu-items.u-popupmenu-items.u-text-active-color-1-light-2 .u-nav-link.active {
-  color: #adcce9 !important;
+  color: transparent !important;
 }
 .u-text-color-1-light-2 .u-svg-link,
 .u-text-hover-color-1-light-2:hover .u-svg-link,
@@ -32935,7 +32958,7 @@ a.u-button-style.u-button-style.active > .u-text-active-color-1-light-2[class*="
   color: #8db8e0 !important;
 }
 a.u-link.u-text-hover-color-1-light-2:hover {
-  color: #adcce9 !important;
+  color: transparent !important;
 }
 .u-text-color-1-light-3,
 li.active > a.u-button-style.u-text-color-1-light-3,
