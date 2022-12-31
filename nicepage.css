@@ -4,6 +4,18 @@
  * Copyright 2014-2021 Froala Labs
  */
 
+@keyframes nav-fade {
+  from {
+    scale: 1;
+    
+  }
+  to {
+    scale: 1.1;
+       
+  }
+}
+ 
+
 .fr-clearfix::after {
   clear: both;
   display: block;
@@ -372,9 +384,6 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-}
-body {
-  margin: 0;
 }
 article,
 aside,
@@ -2641,7 +2650,10 @@ html {
 }
 body {
   height: auto;
+  margin: 0;
   min-height: 100%;
+  background-color: #5e1900;
+  background-image:url(images/wood-pattern.png);
 }
 body,
 aside,
@@ -23187,7 +23199,7 @@ h6 {
 }
 .u-body {
   color: #111111;
-  background-color: #ffffff;
+  background-color: #925101;
   --effect-scale: 1.1;
 }
 /*end-variables color*/
@@ -27533,7 +27545,8 @@ section.u-palette-5-light-3:before,
 .u-container-layout.u-container-layout.u-palette-5-light-3:before,
 .u-table-alt-palette-5-light-3 tr:nth-child(even) {
   color: #111111;
-  background-color: #f5f7fa;
+  background-color: #fff3d4;
+  animation: bg-fade 1.5s;
 }
 .u-button-style.u-palette-5-light-3,
 .u-button-style.u-palette-5-light-3[class*="u-border-"] {
@@ -35219,7 +35232,7 @@ a.u-button-style.u-button-style.active > .u-text-active-palette-1-base[class*="u
 .u-text-hover-palette-1-base.u-carousel-control:hover,
 .u-popupmenu-items.u-text-hover-palette-1-base .u-nav-link:hover,
 .u-popupmenu-items.u-popupmenu-items.u-text-active-palette-1-base .u-nav-link.active {
-  color: #478ac9 !important;
+  color: red !important;
 }
 .u-text-palette-1-base .u-svg-link,
 .u-text-hover-palette-1-base:hover .u-svg-link,
@@ -35634,7 +35647,7 @@ a.u-button-style.u-button-style.u-text-palette-2-base:active,
 a.u-button-style.u-button-style.u-text-palette-2-base[class*="u-border-"]:active,
 a.u-button-style.u-button-style.u-text-palette-2-base.active,
 a.u-button-style.u-button-style.u-text-palette-2-base[class*="u-border-"].active {
-  color: #d63b42 !important;
+  color: #adcce9 !important;
 }
 a.u-button-style:hover > .u-text-hover-palette-2-base,
 a.u-button-style:hover > .u-text-hover-palette-2-base[class*="u-border-"],
@@ -35659,8 +35672,16 @@ a.u-button-style.u-button-style.active > .u-text-active-palette-2-base[class*="u
 .u-text-hover-palette-2-base.u-carousel-control:hover,
 .u-popupmenu-items.u-text-hover-palette-2-base .u-nav-link:hover,
 .u-popupmenu-items.u-popupmenu-items.u-text-active-palette-2-base .u-nav-link.active {
-  color: #db545a !important;
+  
+  animation: nav-fade 1s forwards;
+  color: white !important;
+  
 }
+
+
+
+
+
 .u-text-palette-2-base .u-svg-link,
 .u-text-hover-palette-2-base:hover .u-svg-link,
 .u-button-style:hover > .u-text-hover-palette-2-base .u-svg-link,
@@ -35673,6 +35694,7 @@ a.u-button-style.u-button-style.active > .u-text-active-palette-2-base[class*="u
 }
 a.u-link.u-text-hover-palette-2-base:hover {
   color: #db545a !important;
+  
 }
 .u-text-palette-3-dark-3,
 li.active > a.u-button-style.u-text-palette-3-dark-3,
@@ -38718,7 +38740,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-nav-1 {
   font-size: 1rem;
-  letter-spacing: 0px;
 }
 
 .u-header .u-nav-2 {
@@ -38727,6 +38748,10 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
     width: auto;
+  }
+
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
   }
 }
 
