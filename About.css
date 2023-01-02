@@ -1,4 +1,6 @@
- /* Animation for About background*/
+@charset "UTF-8";
+
+/* Animation for About background*/
 @keyframes bg-fade {
   from {
     opacity: 0;
