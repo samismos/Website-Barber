@@ -34850,31 +34850,7 @@ a.u-button-style.u-button-style.u-text-palette-1-dark-3.active,
 a.u-button-style.u-button-style.u-text-palette-1-dark-3[class*="u-border-"].active {
   color: #25292e !important;
 }
-a.u-button-style:hover > .u-text-hover-palette-1-dark-3,
-a.u-button-style:hover > .u-text-hover-palette-1-dark-3[class*="u-border-"],
-a.u-button-style.u-button-style.u-text-hover-palette-1-dark-3:hover,
-a.u-button-style.u-button-style.u-text-hover-palette-1-dark-3[class*="u-border-"]:hover,
-a.u-button-style.u-button-style.u-button-style.u-text-hover-palette-1-dark-3.active,
-a.u-button-style.u-button-style.u-button-style.u-text-hover-palette-1-dark-3[class*="u-border-"].active,
-a.u-button-style.u-button-style.u-button-style.u-text-hover-palette-1-dark-3:active,
-a.u-button-style.u-button-style.u-button-style.u-text-hover-palette-1-dark-3[class*="u-border-"]:active,
-a.u-button-style.u-button-style.u-text-hover-palette-1-dark-3:focus,
-a.u-button-style.u-button-style.u-text-hover-palette-1-dark-3[class*="u-border-"]:focus,
-a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-palette-1-dark-3:active,
-a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-palette-1-dark-3[class*="u-border-"]:active,
-a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-palette-1-dark-3.active,
-a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-palette-1-dark-3[class*="u-border-"].active,
-a.u-button-style.u-button-style.active > .u-text-active-palette-1-dark-3,
-a.u-button-style.u-button-style.active > .u-text-active-palette-1-dark-3[class*="u-border-"],
-:not(.level-2) > .u-nav > .u-nav-item > a.u-nav-link.u-text-hover-palette-1-dark-3:hover,
-:not(.level-2) > .u-nav > .u-nav-item > a.u-nav-link.u-nav-link.u-text-active-palette-1-dark-3.active,
-.u-text-hover-palette-1-dark-3.u-language-url:hover,
-.u-text-hover-palette-1-dark-3 .u-language-url:hover,
-.u-text-hover-palette-1-dark-3.u-carousel-control:hover,
-.u-popupmenu-items.u-text-hover-palette-1-dark-3 .u-nav-link:hover,
-.u-popupmenu-items.u-popupmenu-items.u-text-active-palette-1-dark-3 .u-nav-link.active {
-  color:  !important;
-}
+
 .u-text-palette-1-dark-3 .u-svg-link,
 .u-text-hover-palette-1-dark-3:hover .u-svg-link,
 .u-button-style:hover > .u-text-hover-palette-1-dark-3 .u-svg-link,
@@ -38676,18 +38652,18 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-image:not(.u-shading) > .u-container-layout > .u-btn,
         .u-btn
         {
-        background-color: #478ac9; /* ABOUT BUTTON*/
-        background-image: linear-gradient( #478ac9,blue);
+         /* ABOUT BUTTON*/
+        background-image: linear-gradient(#57ad7f , #017a38);
         border-radius: 12px;
-        color: #ffffff;
+        color: #000000;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > .u-btn:hover,
         .u-gradient > .u-container-layout > .u-btn:hover,
         .u-image:not(.u-shading) > .u-container-layout > .u-btn:hover,
         .u-btn:hover
         {
-        background-color: #387cbd;
-        color: #e6e6e6;
+        background-image: linear-gradient(#017a38, #2fa365);
+        color: white;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > .u-btn:focus,
         .u-gradient > .u-container-layout > .u-btn:focus,
