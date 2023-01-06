@@ -6689,9 +6689,9 @@ ul.u-text li:last-child {
 .u-image,
 .u-background-effect-image,
 .u-video-poster {
-  object-fit: cover;
+  object-fit: cover;   /* HOME IMAGE */
   display: block;
-  vertical-align: middle;
+  scale: 0.95;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -23886,7 +23886,7 @@ section.u-color-2:before,
   background-color: #db545a;
 }
 .u-button-style.u-color-2,
-.u-button-style.u-color-2[class*="u-border-"] /*HOME BUTTON */{
+.u-button-style.u-color-2[class*="u-border-"] {
   color: #ffffff !important;
   background-color: #db545a !important;
 }
@@ -26310,7 +26310,7 @@ section.u-palette-2-base:before,
   color: #000000 !important;   /*HOME BUTTON*/
   font-size: 25px !important;
   font-weight: bold;
-  border-radius: 12px;
+  border-radius: 6px;
   background-image: linear-gradient(#36905d, #226b42) !important; 
 }
 .u-button-style.u-palette-2-base:hover,
@@ -27573,6 +27573,7 @@ section.u-palette-5-light-3:before,
   color: #111111;
   background-color: #fff3d4;
   animation: bg-fade 1.5s;
+  scale: 0.95;
 }
 .u-button-style.u-palette-5-light-3,
 .u-button-style.u-palette-5-light-3[class*="u-border-"] {
@@ -35234,7 +35235,7 @@ a.u-button-style.u-button-style.active > .u-text-active-palette-1-base[class*="u
 .u-text-hover-palette-1-base.u-carousel-control:hover,
 .u-popupmenu-items.u-text-hover-palette-1-base .u-nav-link:hover,
 .u-popupmenu-items.u-popupmenu-items.u-text-active-palette-1-base .u-nav-link.active {
-  color: white !important; /* NAV LINK COLOR */
+  color: #b5713e !important; /* NAV LINK COLOR */
 }
 .u-text-palette-1-base .u-svg-link,
 .u-text-hover-palette-1-base:hover .u-svg-link,
@@ -38654,7 +38655,7 @@ a.u-link.u-text-hover-grey-90:hover {
         {
          /* ABOUT BUTTON*/
         background-image: linear-gradient(#57ad7f , #017a38);
-        border-radius: 12px;
+        border-radius: 4px;
         color: #000000;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > .u-btn:hover,
@@ -38720,7 +38721,9 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*end-variables sitestylecss*/
  .u-header {
-  background-image: none;
+  background-image: none;   /* NAV COLOR */
+  background-color:#08593b;
+  color: white;
 }
 
 .u-header .u-sheet-1 {
@@ -38761,7 +38764,8 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
  .u-footer {
-  background-image: none;
+  /*background-image: url(images/wood-pattern.png);*/
+  background-color: #383434;
 }
 
 .u-footer .u-sheet-1 {
