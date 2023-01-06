@@ -26309,10 +26309,9 @@ section.u-palette-2-base:before,
 .u-button-style.u-palette-2-base[class*="u-border-"] {
   color: #000000 !important;   /*HOME BUTTON*/
   font-size: 25px !important;
-  font-weight: bold;
+  font-weight: 400;
   border-radius: 6px;
-  background-image: linear-gradient(#36905d, #226b42) !important; 
-}
+  background-image: linear-gradient(#36905d, #226b42) !important; }  
 .u-button-style.u-palette-2-base:hover,
 .u-button-style.u-palette-2-base[class*="u-border-"]:hover,
 .u-button-style.u-palette-2-base:focus,
@@ -26324,7 +26323,7 @@ section.u-palette-2-base:before,
 li.active > .u-button-style.u-button-style.u-palette-2-base,
 li.active > .u-button-style.u-button-style.u-palette-2-base[class*="u-border-"] {
   color: #ffffff !important; /*HOME BUTTON HOVER*/
-  background-image: linear-gradient(#226b43, #017a38) !important;
+  background-image: linear-gradient(#226b43, #017a38) !important;   
 }
 .u-hover-palette-2-base:hover,
 .u-hover-palette-2-base[class*="u-border-"]:hover,
@@ -38657,6 +38656,7 @@ a.u-link.u-text-hover-grey-90:hover {
         background-image: linear-gradient(#57ad7f , #017a38);
         border-radius: 4px;
         color: #000000;
+        font-weight: 400;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > .u-btn:hover,
         .u-gradient > .u-container-layout > .u-btn:hover,
