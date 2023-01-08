@@ -14,6 +14,48 @@
        
   }
 }
+
+a.fb-button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: transparent;
+  border-radius: 50%;
+  background-image: url(images/facebook.png);
+  background-size: cover;
+  border: solid white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0px;
+  margin-left: 12px;
+  
+}
+a.fb-button:hover{
+  color: transparent;
+}
+
+a.ig-button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: transparent;
+  border-radius: 50%;
+  background-image: url(images/instagram.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  border: solid white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0px;
+}
  
 a.lang-button-GR {
   -webkit-appearance: button;
@@ -6488,7 +6530,7 @@ ul.u-text li:last-child {
 .u-backlink {
   position: relative;
   text-align: center;
-  padding: 1em;
+  padding: 8px;
 }
 .u-backlink a:first-letter {
   text-transform: capitalize;
@@ -12072,7 +12114,7 @@ section.u-image:not(.u-hover-box),
 }
 .u-hide-header .u-header,
 .u-hide-footer .u-footer {
-  display: none;
+  display: flex;
 }
 .u-absolute-hcenter {
   left: 50% !important;
@@ -38769,12 +38811,12 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 120px;
+  min-height: 80px;
 }
 
 .u-footer .u-text-1 {
   width: 417px;
-  margin: 49px auto;
+  margin: 40px auto;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
