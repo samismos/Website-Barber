@@ -2,6 +2,24 @@
  .u-section-1 {
   background-image: url("images/gggg-min.jpg");
   opacity: 1;
+  height: 85vh;
+}
+/*
+#price-list {
+  scale: 0.3;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  bottom: 250px;
+  right: 40px;
+} */
+.price1 {
+  display: block;
+  margin: 0 auto;
+  margin-top: 8vh;
+  width: 40%;
+  max-width: 300px;
+  
 }
 /* Animation for Pricing background*/
 .price-fade {
